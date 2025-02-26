@@ -39,7 +39,7 @@ public class OperadorInstanceOf {
         Boolean b2 = texto instanceof String;  // b2 toma el valor de true porque 'texto' es un String
         // Verificamos si b2 es una instancia de la clase Boolean
         b2 = b2 instanceof Boolean;  // Devuelve true porque b2 es un objeto de tipo Boolean
-        System.out.println("b2 es de tipo Boolean = " + b2); 
+        System.out.println("b2 es de tipo Boolean = " + b2);
 
     }
 }
