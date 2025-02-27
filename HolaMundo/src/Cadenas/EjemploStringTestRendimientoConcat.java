@@ -32,6 +32,7 @@ public class EjemploStringTestRendimientoConcat {
             // StringBuilder es más eficiente porque modifica la cadena interna directamente sin crear nuevos objetos.
             sb.append(a).append(b).append("\n"); //500 => 0ms, 1000 => 1ms, 10000 => 1ms
         }
+        System.gc();
 
 // Calculamos el tiempo final después de realizar las 10,000 concatenaciones.
         long fin = System.currentTimeMillis();
